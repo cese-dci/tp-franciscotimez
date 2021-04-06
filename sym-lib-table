@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LM317M)(type Legacy)(uri ${KIPRJMOD}/Librerias/ul_LM317MABDTG/LM317M.lib)(options "")(descr ""))
+  (lib (name MACH3_interfaz-rescue)(type Legacy)(uri ${KIPRJMOD}/MACH3_interfaz-rescue.lib)(options "")(descr ""))
+)

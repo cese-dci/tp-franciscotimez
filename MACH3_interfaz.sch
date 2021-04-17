@@ -404,17 +404,8 @@ Text Label 5075 3825 0    50   ~ 0
 P16
 Text Label 5075 3925 0    50   ~ 0
 P17
-$Comp
-L Connector:Screw_Terminal_01x13 J4
-U 1 1 60736E15
-P 7750 1375
-F 0 "J4" V 7850 900 50  0000 L CNN
-F 1 "Screw_Terminal_01x13" V 7925 900 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-13_1x13_P5.00mm_Horizontal" H 7750 1375 50  0001 C CNN
-F 3 "~" H 7750 1375 50  0001 C CNN
-	1    7750 1375
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	7550 1875 7325 1875
 Wire Wire Line
 	7550 775  7325 775 
 Wire Wire Line
@@ -438,34 +429,32 @@ Wire Wire Line
 Wire Wire Line
 	7550 1775 7325 1775
 Wire Wire Line
-	7550 1875 7325 1875
+	7550 1975 7000 1975
 Wire Wire Line
-	7550 1975 7475 1975
-Wire Wire Line
-	7475 1975 7475 2025
-Text Label 7325 775  0    50   ~ 0
-P1
-Text Label 7325 875  0    50   ~ 0
-P2
-Text Label 7325 975  0    50   ~ 0
-P3
-Text Label 7325 1075 0    50   ~ 0
-P4
-Text Label 7325 1175 0    50   ~ 0
-P5
-Text Label 7325 1275 0    50   ~ 0
-P6
-Text Label 7325 1375 0    50   ~ 0
-P7
-Text Label 7325 1475 0    50   ~ 0
-P8
-Text Label 7325 1575 0    50   ~ 0
-P9
-Text Label 7325 1675 0    50   ~ 0
-P14
-Text Label 7325 1775 0    50   ~ 0
-P16
+	7000 1975 7000 2025
 Text Label 7325 1875 0    50   ~ 0
+P1
+Text Label 7325 775  0    50   ~ 0
+P2
+Text Label 7325 875  0    50   ~ 0
+P3
+Text Label 7325 975  0    50   ~ 0
+P4
+Text Label 7325 1075 0    50   ~ 0
+P5
+Text Label 7325 1175 0    50   ~ 0
+P6
+Text Label 7325 1275 0    50   ~ 0
+P7
+Text Label 7325 1375 0    50   ~ 0
+P8
+Text Label 7325 1475 0    50   ~ 0
+P9
+Text Label 7325 1575 0    50   ~ 0
+P14
+Text Label 7325 1675 0    50   ~ 0
+P16
+Text Label 7325 1775 0    50   ~ 0
 P17
 Text Notes 7450 650  0    50   ~ 0
 SALIDAS
@@ -792,58 +781,58 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8250 5700 50  00
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 2800 7850 2725
+	7850 2900 7850 2825
 $Comp
 L power:GND #PWR0122
 U 1 1 6077A5B8
-P 7850 2800
-F 0 "#PWR0122" H 7850 2550 50  0001 C CNN
-F 1 "GND" H 7855 2627 50  0000 C CNN
-F 2 "" H 7850 2800 50  0001 C CNN
-F 3 "" H 7850 2800 50  0001 C CNN
-	1    7850 2800
+P 7850 2900
+F 0 "#PWR0122" H 7850 2650 50  0001 C CNN
+F 1 "GND" H 7855 2727 50  0000 C CNN
+F 2 "" H 7850 2900 50  0001 C CNN
+F 3 "" H 7850 2900 50  0001 C CNN
+	1    7850 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 7450 2475
+Connection ~ 7450 2575
 Wire Wire Line
-	7850 2475 7450 2475
+	7850 2575 7450 2575
 Wire Wire Line
-	7850 2525 7850 2475
+	7850 2625 7850 2575
 Wire Wire Line
-	7450 2475 7450 2525
+	7450 2575 7450 2625
 $Comp
 L Device:CP_Small C6
 U 1 1 606FAE5F
-P 7450 2625
-F 0 "C6" H 7538 2671 50  0000 L CNN
-F 1 "220uF" H 7538 2580 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 7450 2625 50  0001 C CNN
-F 3 "~" H 7450 2625 50  0001 C CNN
-	1    7450 2625
+P 7450 2725
+F 0 "C6" H 7538 2771 50  0000 L CNN
+F 1 "220uF" H 7538 2680 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 7450 2725 50  0001 C CNN
+F 3 "~" H 7450 2725 50  0001 C CNN
+	1    7450 2725
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 6074053C
-P 7450 2800
-F 0 "#PWR0123" H 7450 2550 50  0001 C CNN
-F 1 "GND" H 7455 2627 50  0000 C CNN
-F 2 "" H 7450 2800 50  0001 C CNN
-F 3 "" H 7450 2800 50  0001 C CNN
-	1    7450 2800
+P 7450 2900
+F 0 "#PWR0123" H 7450 2650 50  0001 C CNN
+F 1 "GND" H 7455 2727 50  0000 C CNN
+F 2 "" H 7450 2900 50  0001 C CNN
+F 3 "" H 7450 2900 50  0001 C CNN
+	1    7450 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7375 2475 7450 2475
+	7375 2575 7450 2575
 $Comp
 L Device:D_ALT D3
 U 1 1 606DE50A
-P 7225 2475
-F 0 "D3" H 7225 2258 50  0000 C CNN
-F 1 "M7" H 7225 2349 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 7225 2475 50  0001 C CNN
-F 3 "~" H 7225 2475 50  0001 C CNN
-	1    7225 2475
+P 7225 2575
+F 0 "D3" H 7225 2675 50  0000 C CNN
+F 1 "M7" H 7225 2750 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7225 2575 50  0001 C CNN
+F 3 "~" H 7225 2575 50  0001 C CNN
+	1    7225 2575
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1407,12 +1396,12 @@ $EndComp
 $Comp
 L Device:C_Small C7
 U 1 1 6129BC97
-P 7850 2625
-F 0 "C7" H 7942 2671 50  0000 L CNN
-F 1 "100nF" H 7942 2580 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7850 2625 50  0001 C CNN
-F 3 "~" H 7850 2625 50  0001 C CNN
-	1    7850 2625
+P 7850 2725
+F 0 "C7" H 7942 2771 50  0000 L CNN
+F 1 "100nF" H 7942 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7850 2725 50  0001 C CNN
+F 3 "~" H 7850 2725 50  0001 C CNN
+	1    7850 2725
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2109,12 +2098,12 @@ $EndComp
 $Comp
 L power:GND1 #PWR0105
 U 1 1 626D01A2
-P 7475 2025
-F 0 "#PWR0105" H 7475 1775 50  0001 C CNN
-F 1 "GND1" H 7480 1852 50  0000 C CNN
-F 2 "" H 7475 2025 50  0001 C CNN
-F 3 "" H 7475 2025 50  0001 C CNN
-	1    7475 2025
+P 7000 2025
+F 0 "#PWR0105" H 7000 1775 50  0001 C CNN
+F 1 "GND1" H 7005 1852 50  0000 C CNN
+F 2 "" H 7000 2025 50  0001 C CNN
+F 3 "" H 7000 2025 50  0001 C CNN
+	1    7000 2025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2269,7 +2258,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3025 9950 2925
 Wire Wire Line
-	7450 2800 7450 2725
+	7450 2900 7450 2825
 Wire Wire Line
 	6475 1475 6475 1525
 Wire Wire Line
@@ -2281,12 +2270,12 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR0144
 U 1 1 629C176A
-P 7850 2425
-F 0 "#PWR0144" H 7850 2275 50  0001 C CNN
-F 1 "VCC" H 7865 2598 50  0000 C CNN
-F 2 "" H 7850 2425 50  0001 C CNN
-F 3 "" H 7850 2425 50  0001 C CNN
-	1    7850 2425
+P 7850 2525
+F 0 "#PWR0144" H 7850 2375 50  0001 C CNN
+F 1 "VCC" H 7865 2698 50  0000 C CNN
+F 2 "" H 7850 2525 50  0001 C CNN
+F 3 "" H 7850 2525 50  0001 C CNN
+	1    7850 2525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2301,8 +2290,8 @@ F 3 "" H 8450 2525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 2425 7850 2475
-Connection ~ 7850 2475
+	7850 2525 7850 2575
+Connection ~ 7850 2575
 $Comp
 L power:VCC #PWR0146
 U 1 1 62A2021F
@@ -2360,10 +2349,10 @@ $EndComp
 Wire Wire Line
 	6400 2450 6475 2450
 Wire Wire Line
-	7075 2475 6975 2475
+	7075 2575 6975 2575
 Text Label 6475 2450 0    50   ~ 0
 V_IN
-Text Label 6975 2475 0    50   ~ 0
+Text Label 6975 2575 0    50   ~ 0
 V_IN
 Wire Notes Line
 	5500 3175 7150 3175
@@ -2530,4 +2519,35 @@ F 3 "~" H 3500 7025 50  0001 C CNN
 	1    3500 7025
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x15 J4
+U 1 1 60952780
+P 7750 1475
+F 0 "J4" H 7825 1125 50  0000 L CNN
+F 1 "Screw_Terminal_01x15" V 7875 1225 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-15_1x15_P5.00mm_Horizontal" H 7750 1475 50  0001 C CNN
+F 3 "~" H 7750 1475 50  0001 C CNN
+	1    7750 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0148
+U 1 1 60997041
+P 7400 2075
+F 0 "#PWR0148" H 7400 1925 50  0001 C CNN
+F 1 "+5V" V 7400 2275 50  0000 C CNN
+F 2 "" H 7400 2075 50  0001 C CNN
+F 3 "" H 7400 2075 50  0001 C CNN
+	1    7400 2075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 2075 7475 2075
+Wire Wire Line
+	7550 2175 7475 2175
+Wire Wire Line
+	7475 2175 7475 2075
+Connection ~ 7475 2075
+Wire Wire Line
+	7475 2075 7550 2075
 $EndSCHEMATC

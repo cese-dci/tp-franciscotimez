@@ -38,13 +38,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J3
 U 1 1 605CA374
-P 6225 1275
-F 0 "J3" H 6143 750 50  0000 C CNN
-F 1 "Screw_Terminal_01x06" H 6143 841 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal" H 6225 1275 50  0001 C CNN
-F 3 "~" H 6225 1275 50  0001 C CNN
-	1    6225 1275
-	-1   0    0    1   
+P 6225 1175
+F 0 "J3" H 6143 650 50  0000 C CNN
+F 1 "Screw_Terminal_01x06" H 6143 741 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal" H 6225 1175 50  0001 C CNN
+F 3 "~" H 6225 1175 50  0001 C CNN
+	1    6225 1175
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1200 7525 1250 7525
